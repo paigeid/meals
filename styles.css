@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, Geneva, sans-serif;
+  text-align: center;
+  color: #040404;
+}
+
+/*NAVIAGATION BAR*/
+/*navigation bar color*/
+.bg-dark {
+  background-color: #CAE0CE !important; /*light green*/
+}
+
+/*naviation text color*/
+.nav-link{
+  color: #040404 !important;
+}
+
+.logo{
+  height: 50px;
+}
+
+/*FOOTER*/
+.footer{
+  background-color: #CAE0CE; /*light green*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.fcontent, a {
+  color: #040404;
+  style: #040404;
+}
+
+/*CONTENT*/
+.meal{
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 90%;
+  border: solid;
+}
+
+.mealImage{
+  width: 100%;
+}
+
+.soSad{
+  margin-top: 15px;
+}
+
+/*Expand Recipe*/
+.dropdown {
+  background-color: #CAE0CE ;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.active, .dropdown:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.recipeText{
+  text-align: left;
+}
+button{
+  background-color: #CAE0CE;
+  width: 20px;
+}
+
+h1{
+  margin-top: 15px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  #browseResults{
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+  }
+}
